@@ -22,6 +22,10 @@
     "uuid": "^14.0.0",
     "zustand": "^5.0.13"
   },
+  "optionalDependencies": {
+    "rolldown-linux-x64-gnu": "*",
+    "rolldown-linux-arm64-gnu": "*"
+  },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@types/node": "^24.12.2",

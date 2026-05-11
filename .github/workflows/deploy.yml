@@ -26,14 +26,14 @@ jobs:
           cache: npm
 
       - name: Install root deps
-        run: npm install
+        run: npm install --include=optional
 
       - name: Install desktop deps
-        run: npm install
+        run: npm install --include=optional
         working-directory: desktop
 
       - name: Build desktop
-        run: npm run build
+        run: npx tsc -b && npx vite build
         working-directory: desktop
 
       - uses: actions/upload-pages-artifact@v3
