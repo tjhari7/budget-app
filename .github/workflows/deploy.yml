@@ -33,7 +33,7 @@ jobs:
         working-directory: desktop
 
       - name: Install Linux native bindings
-        run: npm install --no-save --include=optional @rolldown/binding-linux-x64-gnu lightningcss-linux-x64-gnu
+        run: npm install --no-save --include=optional @rolldown/binding-linux-x64-gnu lightningcss-linux-x64-gnu @tailwindcss/oxide-linux-x64-gnu
         working-directory: desktop
 
       - name: Build desktop
