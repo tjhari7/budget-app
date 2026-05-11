@@ -23,8 +23,8 @@
     "zustand": "^5.0.13"
   },
   "optionalDependencies": {
-    "rolldown-linux-x64-gnu": "*",
-    "rolldown-linux-arm64-gnu": "*"
+    "@rolldown/binding-linux-x64-gnu": "*",
+    "@rolldown/binding-linux-arm64-gnu": "*"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

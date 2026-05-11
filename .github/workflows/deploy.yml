@@ -32,6 +32,10 @@ jobs:
         run: npm install --include=optional
         working-directory: desktop
 
+      - name: Install rolldown Linux binding
+        run: npm install --no-save --include=optional @rolldown/binding-linux-x64-gnu
+        working-directory: desktop
+
       - name: Build desktop
         run: npx tsc -b && npx vite build
         working-directory: desktop
