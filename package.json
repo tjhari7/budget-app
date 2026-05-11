@@ -1,0 +1,14 @@
+{
+  "name": "budget-app-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["mobile", "desktop"],
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "uuid": "^11.0.0",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^10.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "desktop",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--", "--port", "5173"],
+      "cwd": "/Users/tjhari/Documents/Claude Code/Projects/Budget App/desktop",
+      "port": 5173
+    }
+  ]
+}
