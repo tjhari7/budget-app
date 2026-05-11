@@ -24,7 +24,9 @@
   },
   "optionalDependencies": {
     "@rolldown/binding-linux-x64-gnu": "*",
-    "@rolldown/binding-linux-arm64-gnu": "*"
+    "@rolldown/binding-linux-arm64-gnu": "*",
+    "lightningcss-linux-x64-gnu": "*",
+    "lightningcss-linux-arm64-gnu": "*"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
